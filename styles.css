@@ -1,51 +1,45 @@
 .header {
-    padding: 60px;
+    padding: 15px;
     text-align: center;
-    background: #b8d8d1;
+    background: #caf6ec;
     color: white;
     font-size: 30px;
   }
 
-.Container {
-background-color: rgb(213, 207, 207);
+.container {
+    margin: 0 auto;
+    width: 200px;   
+    width: 40%;
+    height: 40%;
+    padding: 2px; 
 }
 
-.IT-Images {
-    
-    border-style: solid;
+.post {
+    background-color: white;
+    margin-bottom: 50px;
     text-align: center;
-    display: flex;
-}
-.IT-Podcast {
-    border-style: solid;
-    text-align: center;
-    display: flex;
-}
-.IT-Jobs {
-    border-style: solid;
-    text-align: center;
-    display: flex;
-}
-.News {
-    border-style: solid;
-    text-align: center;
-    display: flex;
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+    width: 99%;
 }
+
 .caption {
-    border-style: dotted;
     width: 40%;
     height: 20%;
 }
-.Date {
-    border-style: solid;
-    float: left;
+
+.date {
+    float: right;
     width: 50px;
     height: 10%;
+    color: caf6ec;
+}
+.content-header {
+    
+    width: 40%;
+    height: 20%;
+}
+body{
+    background-color: rgb(217, 228, 237);
 }
